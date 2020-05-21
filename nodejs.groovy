@@ -9,7 +9,7 @@ job('NodeJS example') {
         scm('H/5 * * * *')
     }
     wrappers {
-        nodejs('nodejs')
+        nodejs('nodejs14.3')
     }
     steps {
         shell('npm install')
